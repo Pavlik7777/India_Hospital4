@@ -1,0 +1,81 @@
+.Home_sec1{
+    width: 98vw;
+    height: 88vh;
+    background-image: url(../assets/Fon.png);
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .kol{
+        width: 98vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .kol_container{
+            width: 40vw;
+            p{
+                letter-spacing: 16%;
+                color: #159EEC;
+                font-size: 24px;
+                font-weight: 900;
+                height: 2vh;
+            }
+            h1{
+                height: 12vh;
+                color: #1F2B6C;
+                font-size: 50px;
+                font-weight: 600;
+            }
+            button{
+                width: 170px;
+                height: 45px;
+                background-color: #BFD2F8;
+                border: 1px solid #BFD2F8;
+                border-radius: 30px;
+                color: #1F2B6C;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+    .gif{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        .gif_container{
+            width: 60vw;
+            display: flex;
+            justify-content: space-around;
+            .got1{
+                position: relative;
+                top: 7vh;
+                width: 317px;
+                height: 100px;
+                background-color: #1F2B6C;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .got2{
+                position: relative;
+                top: 7vh;
+                width: 317px;
+                height: 100px;
+                background-color: #BFD2F8;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .got3{
+                position: relative;
+                top: 7vh;
+                width: 317px;
+                height: 100px;
+                background-color: #159EEC;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+.Home_sec5{
+    width: 98vw;
+    height: 60vh;
+    background-image: url(../assets/Fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .alala{
+        width: 98vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .alala_container{
+            width: 60vw;
+            display: flex;
+            justify-content: space-around;
+            .boo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            h2{
+                width: 20vw;
+                height: 2vh;
+                color: #159EEC;
+                font-size: 32px;
+                font-weight: 600;
+            }
+            .lor{
+                color: #212124;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        .lipa{
+            width: 491px;
+            height: 445px;
+            background-color: #1F2B6C;
+            border-radius: 10px;
+            .con1{
+                width: 490px;
+                height: 50px;
+                display: flex;
+                justify-content: space-around;
+                border-bottom: 1px solid lightgray;
+                p{
+                    color: #FCFEFE;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                .cher{
+                    height: 50px;
+                    border: 1px solid lightgray;
+                }
+                .gen{
+                    width: 4.5vw;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .fol{
+                    width: 2.3vw;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+            .mes{
+                width: 491px;
+                height: 195px;
+                border-top: 1px solid lightgray;
+                p{
+                    display: flex;
+                    justify-content: center;
+                    width: 9.5vw;
+                    color: #FCFEFE;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+            .sub{
+                width: 491px;
+                height: 50px;
+                background-color: #BFD2F8;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color: #1F2B6C;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+header{
+    width: 98vw;
+    background-color: #1F2B6C;
+    display: flex;
+    justify-content: center;
+    nav{
+        width: 80vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .hihi{
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            ul{
+                width: 30vw;
+                display: flex;
+                justify-content: space-around;
+                text-decoration: none;
+                list-style: none;
+                li{
+                    color: #FCFEFE;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                li:hover{
+                    color: #BFD2F8;
+                }
+            }
+        }
+        .app{
+            width: 10vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            button{
+                width: 137px;
+                height: 45px;
+                color: #1F2B6C;
+                font-size: 16px;
+                font-weight: 500;
+                border-radius: 30px;
+                background-color: #BFD2F8;  
+                border: 1px solid #BFD2F8;
+            }
+        }
+    }
+}

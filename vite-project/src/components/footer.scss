@@ -1,0 +1,100 @@
+.Footer{
+    width: 98vw;
+    background-color: #1F2B6C;
+    .gogo{
+        width: 98vw;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .gogo_container{
+            width: 70vw;
+            height: 26vh;
+            display: flex;
+            justify-content: space-around;
+            .gool{
+                height: 20vh;
+                h2{
+                    position: relative;
+                    bottom: 2vh;
+                    color: #BFD2F8;
+                    font-size: 36px;
+                    font-weight: 600;
+                    height: 2vh;
+                }
+                p{
+                    color: #FCFEFE;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 140%;
+                }
+            }
+            .lai{
+                h2{
+                    height: 4vh;
+                    color: #FCFEFE;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+                ul{
+                    text-decoration: none;
+                    list-style: none;
+                    line-height: 30px;
+                    li{
+                        position: relative;
+                        right: 2vw;
+                        color: #FCFEFE;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .news{
+                h2{
+                    height: 4vh;
+                    color: #FCFEFE;
+                    font-size: 22px;
+                    font-weight:600;
+                }
+                button{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 272px;
+                    height: 50px;
+                    border-radius: 10px;
+                    background-color: #BFD2F8;
+                    border: 1px solid #BFD2F8;
+                    p{
+                        color: #1F2B6C;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .hos{
+        width: 98vw;
+        display: flex;
+        justify-content: center;
+        .hos_container{
+            border-top: 1px solid #BFD2F8;
+            width: 65vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 14vh;
+            p{
+                color: #FCFEFE;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .imma{
+                width: 6vw;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}

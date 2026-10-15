@@ -1,0 +1,46 @@
+.med{
+    width: 98vw;
+    height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        height: 1vh;
+        color: #159EEC;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 16%;
+    }
+    h2{
+        height: 2vh;
+        color: #1F2B6C;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    h3{
+        color: #212124;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .str{
+        width: 8vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            color: #159EEC;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}
+.gr{
+    position: relative;
+    bottom: 6vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,100 @@
+.als{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+        color: #159EEC;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 16%;
+        height: 1vh;
+    }
+    h2{
+        position: relative;
+        bottom: 2vh;
+        height: 1vh;
+        color: #1F2B6C;
+        font-size: 32px;
+        font-weight: 600;
+    }
+}
+.lp{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .lp_container{
+        width: 54vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .alal{
+            width: 233px;
+            height: 233px;
+            background-color: #BFD2F8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            img{
+                position: relative;
+                right: 3vw;
+                top: 2vh;
+            }
+            h2{
+                width: 7.7vw;
+                height: 2vh;
+                position: relative;
+                top: 2vh;
+                color: #1F2B6C;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            ul{
+                width: 10vw;
+                text-decoration: none;
+                list-style: none;
+                li{
+                    color: #1F2B6C;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .alal2{
+            width: 233px;
+            height: 233px;
+            background-color: #1F2B6C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            img{
+                position: relative;
+                right: 3vw;
+                top: 2vh;
+            }
+            h2{
+                width: 7.7vw;
+                height: 2vh;
+                position: relative;
+                top: 2vh;
+                color: #BFD2F8;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            ul{
+                width: 10vw;
+                text-decoration: none;
+                list-style: none;
+                li{
+                    color: #BFD2F8;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

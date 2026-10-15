@@ -1,0 +1,52 @@
+.Home_sec4{
+    width: 98vw;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .all{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            color: #159EEC;
+            font-size: 22px;
+            font-weight: 700;
+            height: 1vh;
+            letter-spacing: 16%;
+        }
+        h2{
+            height: 1vh;
+            color: #1F2B6C;
+            font-size: 32px;
+            font-weight: 600;
+        }
+    }
+    .lopp{
+        width: 52vw;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+        align-items: center;
+        .jo{
+            width: 248px;
+            height: 172px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid lightgray;
+        }
+        .active{
+            background-color: #1F2B6C;
+            border: 1px solid #1F2B6C;
+            p{
+                color: #BFD2F8;
+            }
+        }
+
+
+    }
+}
